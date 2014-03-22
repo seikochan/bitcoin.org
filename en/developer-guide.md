@@ -458,9 +458,9 @@ All blocks with a block height less than 6,930,000 are entitled to
 receive a block reward of newly created bitcoin value, which also
 should be spent in the coinbase transaction. (The block reward started
 at 50 bitcoins and is being halved approximately every four years: as of
-March 2014, it's 25 bitcoins.) A coinbase transaction is invalid if it 
-tries to spend more value than is available from the transaction 
-fees and block reward.
+March 2014, it's 25 bitcoins.) A coinbase transaction is invalid if it
+tries to spend a different number than the sum of the transaction fees
+and block reward.
 
 The coinbase transaction has the same basic format as any other
 transaction, but it references a single non-existent UTXO and a special
